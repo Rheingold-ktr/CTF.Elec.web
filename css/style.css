@@ -1,0 +1,121 @@
+/* Write some CSS below */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body {
+  font-family: 	'Lora', sans-serif;
+  margin: 0px;
+  color: #575F7D;
+  background: #DDFFD9;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+  color: #009fb7 ;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+h2 {
+  color: #7ECE99 ;
+  font-weight: 700;
+}
+p {
+  text-justify: justify;
+}
+
+.pic_realisations {
+	width: 400px;
+}
+
+a {
+  text-decoration: none	;
+  color: #6B72E1;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+a:hover {
+  color: blue;
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* Display the items of the ul on a single line - not wrapped */
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 20px;
+	color: rgb(100,100,100);
+}
+  
+.list-inline i:hover {
+	color: black;
+}
+
+/* The Sidebar, where the menu is fixed */
+.sidebar {
+  position: fixed;
+  width: 150px;
+  border-right: dashed red;
+}
+
+/*Don’t forget to add some margin on the left of your .page-content so that it’s not hidden by the sidebar */
+.page-content {
+  margin-left: 110px;
+}
+
+/* Remove the dots before the li */
+.sidebar ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+/* Display the items of the ul on a single line - not wrapped */
+.sidebar li {
+  	display: inline;
+	padding: 5px;
+}
+
+/* Display the items of the ul on a single line - not wrapped */
+.sidebar a {
+  width: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Formatting the division of the Login form */
+#frm {
+	border: solid gray 1px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+  width: 60%;
+  margin: 0px auto;
+}

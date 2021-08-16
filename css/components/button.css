@@ -1,0 +1,17 @@
+/* Write some CSS below */
+
+.btn-blue {
+  background-color: #6D71DD;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
